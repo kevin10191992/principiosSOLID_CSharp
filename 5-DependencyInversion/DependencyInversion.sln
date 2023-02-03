@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInversion", "Api\DependencyInversion.csproj", "{81C4A148-458B-4039-B598-56EA1DC3C0FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.Tests", "Api.Tests\Api.Tests.csproj", "{96828909-23BE-492F-95FB-1444C1566B3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81C4A148-458B-4039-B598-56EA1DC3C0FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C4A148-458B-4039-B598-56EA1DC3C0FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C4A148-458B-4039-B598-56EA1DC3C0FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C4A148-458B-4039-B598-56EA1DC3C0FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96828909-23BE-492F-95FB-1444C1566B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96828909-23BE-492F-95FB-1444C1566B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96828909-23BE-492F-95FB-1444C1566B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96828909-23BE-492F-95FB-1444C1566B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB918611-A71F-4A49-B195-9BCF92B709C0}
+	EndGlobalSection
+EndGlobal
